@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SLUG</title>
+
+  <!-- 더미데이터가 픽썸이라는 곳에서 로딩된다. -->
+  <!-- 조금이라도 빨리 가져오려고 DNS 패치, 프리커넥트를 이용한다. -->
+  <!-- 클라우디너리도 마찬가지 -->
+  <link rel="dns-prefetch" href="//picsum.photos">
+  <link rel="dns-prefetch" href="//res.cloudinary.com">
+  <link rel="preconnect" href="https://picsum.photos" crossorigin>
+  <link rel="preconnect" href="http://res.cloudinary.com" crossorigin>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>
